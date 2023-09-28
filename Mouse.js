@@ -10,18 +10,8 @@ class Mouse {
         this.speed = speed;
         this.status = true;
     }
-    getStatus () {
-        if (this.status) {
-            alert("Chuột sống");
-        } else {
-            alert("Chuột chết");
-        }
-    }
     die () {
         this.status = false;
-    }
-    noDie () {
-        this.status = true;
     }
     mouseAction (sound) {
         this.sound = sound;
